@@ -21,10 +21,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
-$(call inherit-product, vendor/gcambsg/config.mk)
+$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 $(call inherit-product, vendor/v4afx/config.mk)
 $(call inherit-product, vendor/dirac/config.mk)
-$(call inherit-product, vendor/ANXCamera/config.mk)
 
 # Fix uses broken libraries
 RELAX_USES_LIBRARY_CHECK := true
@@ -41,9 +40,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# PixelPlusUI Flags
-CUSTOM_BUILD_TYPE := OFFICIAL
-PPUI_MAINTAINER := 7Soldier
+# Rom Flags
 IS_PHONE := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true

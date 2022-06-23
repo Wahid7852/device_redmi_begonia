@@ -1,8 +1,8 @@
 [
   {
-    "repository" : "PixelPlusUI-Devices/kernel_xiaomi_mt6785",
+    "repository" : "Wahid7852/kernel_begonia_bal",
     "target_path": "kernel/xiaomi/mt6785",
-    "branch": "twelve",
+    "branch": "rebase",
     "remote": "github
   },
   {
@@ -24,9 +24,9 @@
     "remote": "github"
   },
   {
-    "repository" : "7Soldier/vendor_gcambsg",
-    "target_path": "vendor/gcambsg",
-    "branch": "twelve",
+    "repository" : "Panchajanya1999/azure-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-azure",
+    "branch": "master",
     "remote": "github"
   },
   {
@@ -42,9 +42,9 @@
     "remote": "github"
   },
   {
-    "repository" : "7Soldier/vendor_ANXCamera",
-    "target_path": "vendor/ANXCamera",
-    "branch": "twelve",
+    "repository" : "SHADOW-REX/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "12.x",
     "remote": "github"
   },
   {
