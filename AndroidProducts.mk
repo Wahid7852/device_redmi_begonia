@@ -18,6 +18,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_begonia-user \
-    lineage_begonia-userdebug \
-    lineage_begonia-eng
+    $(foreach variant, user userdebug eng, lineage_begonia-$(variant))
